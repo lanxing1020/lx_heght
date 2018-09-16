@@ -1,0 +1,124 @@
+/*
+* @Author: www87
+* @Date:   2018-08-15 19:25:30
+* @Last Modified by:   www87
+* @Last Modified time: 2018-08-17 11:14:34
+*/
+main{
+	width: 7.5rem;
+	height: 13.34rem;
+	background: url('../img/zhuce.png');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.box1{
+	width: 1.5rem;
+	height: 0.65rem;
+	background: #ff6666;
+	color: #fff;
+	line-height: 0.65rem;
+	border-radius: 0.3rem;
+	font-size: 0.3rem;
+	text-align: center;
+	margin-right: 0.26rem;
+	margin-top: 0.53rem;
+	float: right;
+}
+h1{
+	font-size: 0.28rem;
+	color: #fff;
+	position: absolute;
+	left: 2.69rem;
+	top: 4.97rem;
+}
+h2{
+	font-size: 0.3rem;
+	color: #fff;
+	position: absolute;
+	left:3.31rem ;
+	top: 5.29rem;
+}
+section{
+	width: 6.33rem;
+	height: 3.19rem;
+	position: absolute;
+	left: 0.64rem;
+	top: 7.59rem;
+}
+section .list{
+	width: 100%;
+	height: 1.05rem;
+	padding-left: 0.1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+section .list .jianhao{
+	width: 0.56rem;
+	height: 0.56rem;
+	margin-top: 0.4rem;
+}
+section .list input{
+	margin-left: 0.45rem;
+	border: none;
+	outline: none;
+	width: 3rem;
+	height: 0.6rem;
+	margin-top: 0.42rem;
+}
+input::-webkit-input-placeholder{
+	font-size: 0.3rem;
+	color: #e4e3e4;
+}
+section .list .shouji{
+	width: 0.35rem;
+	height: 0.51rem;
+	margin-top: 0.41rem;
+	margin-left: 1.43rem;
+}
+section .list .list1{
+	width: 1.96rem;
+	height: 0.65rem;
+	background: #626262;
+	color: #fff;
+	line-height: 0.65rem;
+	text-align: center;
+	border-radius: 0.3rem;
+	font-size: 0.3rem;
+	margin-top: 0.26rem;
+}
+section .list .suo{
+	width: 0.38rem;
+	height: 0.48rem;
+	margin-top: 0.37rem;
+	margin-left: 1.43rem;
+}
+.last{
+	width: 1.96rem;
+	height: 0.65rem;
+	background: #626262;
+	color: #fff;
+	line-height: 0.65rem;
+	text-align: center;
+	border-radius: 0.3rem;
+	font-size: 0.3rem;
+	position: absolute;
+	bottom: 1.47rem;
+	left: 2.72rem;
+}
+.yuan{
+	width: 0.23rem;
+	height: 0.23rem;
+	position: absolute;
+	bottom: 0.56rem;
+	left: 1.44rem;
+}
+h3{
+	font-size: 0.24rem;
+	color: #010101;
+	position: absolute;
+	bottom: 0.56rem;
+	left: 1.93rem;
+}

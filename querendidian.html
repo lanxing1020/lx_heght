@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认地点</title>
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/qurrendidian.css">
+	<script src="jquery.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<header>
+		<img class="pic" src="img/qurendingdan2.png" alt="">
+		<div class="box1">订单配送至
+			<h1>公司</h1>
+		</div>
+		<div class="box2">
+			<p>凯通大厦学府街122号 </p>
+			<p>510室</p>
+		</div>
+		<div class="box3">
+			<p>兰兴</p>
+			<p>（先生）</p>
+			<p>18435154425</p>
+		</div>
+		<div class="box4">
+			<h1>送达时间</h1>
+			<h2>尽快送达（12：00送达）</h2>
+			<h3>准时达服务：超过10分钟享赔付</h3>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<h4>支付方式</h4>
+			<div class="last">
+				<p>支付方式</p>
+				<img class="zhifu" src="img/querendiangdan3.png" alt="">
+			</div>
+		</div>
+	</header>
+	<footer>
+		<h1>选择支付方式</h1>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box">
+			<img class="qianbao" src="img/qianbaoyue.png" alt="">
+			<p>账户余额</p>
+		</div>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box">
+			<img class="zhifubao" src="img/zhifubao.png" alt="">
+			<p>支付宝</p>
+		</div>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box">
+			<img class="weixin" src="img/weixin.png" alt="">
+			<p>微信支付</p>
+		</div>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<a href="zhiwen.html"><div class="box active">
+			<img class="yinhangka" src="img/yinhangka.png" alt="">
+			<p>银行卡支付</p>
+		</div></a>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box">
+			<img class="qita" src="img/qita.png" alt="">
+			<p>其他第三方支付</p>
+		</div>
+	</footer>
+</body>
+</html>
+<script>	
+	let footer=document.querySelectorAll("footer");
+	let box=document.querySelectorAll("footer .box");
+	box.forEach(function(e){
+		e.onclick=function(){
+			box.forEach(function(element){
+				element.classList.remove("active");
+			})
+			e.classList.add("active");
+		}
+	})
+</script>

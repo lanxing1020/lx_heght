@@ -1,0 +1,343 @@
+/*
+* @Author: www87
+* @Date:   2018-08-08 11:18:23
+* @Last Modified by:   www87
+* @Last Modified time: 2018-08-16 19:01:56
+*/
+*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		box-sizing:border-box;
+		font-family: "苹方";
+}
+i{
+	font-style: normal;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width:7.5rem;
+	height: 0.9rem;
+	background-color: #f65757;
+	margin: 0 auto;
+}
+header .box{
+	width: 1.14rem;
+	height:0.9rem;
+	text-align: center;
+	line-height: 0.9rem;
+	font-size:0.25rem;
+	color: #fff;
+	float: left;
+}
+header input{
+	width: 6rem;
+	height: 0.4rem;
+	border-radius: 0.3rem;
+	outline: none;
+	color: #fff;
+	margin-top:0.25rem;
+	float: left;
+	border: none;
+	background-image: url('../img/search.png');
+	background-repeat: no-repeat;
+	background-position: 0.15rem 0.09rem;
+	background-size: 0.25rem 0.25rem;
+	position: relative;
+}
+header img{
+	width: 0.25rem;
+	height: 0.25rem;
+	position: absolute;
+	right: 0.55rem;
+	top: 0.34rem;
+}
+input::-webkit-input-placeholder{
+	padding-left:0.4rem;
+	padding-top: 0.2rem;
+	color: #e9e7e7;
+	font-size: 0.2rem;
+}
+.swiper-pagination-bullet-active{
+	background: #f4f4f4;
+}
+.swiper-slide{
+	width: 7.5rem;
+	height: 3.2rem;
+	background-image: url('../img/banner_02.png');
+	background-size: cover;
+	background-position: center;
+	margin: 0 auto;
+}
+.swiper-slide:nth-child(1){
+	background-image: url('../img/banner_02.png');
+}
+.swiper-slide:nth-child(2){
+	background-image: url('../img/110.jpg');
+}
+.swiper-slide:nth-child(3){
+	background-image: url('../img/111.jpg');
+}
+.swiper-container {
+    width: 7.5rem;
+	height: 3.2rem;
+}  
+.list{
+	width: 7.5rem;
+	height: 4.43rem;
+	background-color: #ffffff;
+	padding: 0 0.2rem 0 0.2rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin: 0 auto;
+}
+.list li{
+	width: 1.775rem;
+	height: 2.215rem;
+	/* background-color: red; */
+	font-size: 0.25rem;
+	text-align: center;
+	font-weight: 600;
+	color: #000;
+}
+.list li img{
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-top: 0.15rem;
+	margin-left: 0.1rem;
+}
+section{
+	width: 7.5rem;
+	height: 1.4rem;
+	padding: 0 0.2rem 0 0.2rem;
+	margin: 0 auto;
+}
+section .wenzi{
+	width: 2.77rem;
+	height: 0.7rem;
+	margin: 0.39rem auto 0.39rem auto;
+	/* background-color: red; */
+	background-image: url('../img/section1.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.section1{
+	margin: 0 auto;
+	height: 3.44rem;
+	width: 7.5rem;
+}
+.section1 img{
+	height: 3.44rem;
+	width: 7.5rem;
+}
+.section2{
+	margin: 0 auto;
+	height: 2.06rem;
+	width: 7.5rem;
+}
+.section2 img{
+	height: 2.06rem;
+	width: 7.5rem;
+}
+.section3{
+	margin: 0 auto;
+	height: 0.34rem;
+	width: 7.5rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+}
+.section3 li{
+	width: 0.96rem;
+	height: 100%;
+	border: 0.01rem solid red;
+	border-radius: 0.1rem;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.34rem;
+	position: relative;
+}
+.last{
+	height: 11rem;
+	width: 7.5rem;
+	margin: 0 auto;
+}
+.last ul{
+	height: 11rem;
+	width: 7.1rem;
+	margin: 0 auto;
+}
+.last ul li{
+	height: 2.66rem;
+	width: 100%;
+	border-bottom: 0.02rem solid #fdf4f4;
+	position: relative;
+	/* box-shadow: 0 0.03rem 0 0.02rem rgba(217, 43, 43, 0.3); */
+}
+.last ul li:nth-child(4){
+	margin-bottom: 1.3rem;
+}
+.last ul li .box1{
+	width: 2.54rem;
+	height: 100%;
+	float: left;
+	/* background: yellow; */
+}
+.last ul li .box1 a{
+	width: 2.12rem;
+	height: 1.98rem;
+}
+.last ul li .box1 a img{
+	width: 2.12rem;
+	height: 1.98rem;
+	margin: 0 auto;
+	margin-top: 0.46rem;
+}
+.last ul li .box1 img{
+	width: 2.12rem;
+	height: 1.98rem;
+	margin: 0 auto;
+	margin-top: 0.46rem;
+}
+.last ul li .box2{
+	width: 4.55rem;
+	height: 100%;
+	padding-top: 0.4rem;
+	float: left;
+	/* background: red; */
+	position: relative;
+}
+.last ul li .box2 h1{
+	font-size:0.3rem;
+}
+.last ul li .box2 h1 img{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.last ul li .box2 h1 img:nth-child(1){
+	margin-left: 0.28rem;
+}
+.last ul li .box2 h2 img{
+	position: absolute;
+	top: 0.9rem;
+	left: 0;
+	width: 2.7rem;
+	height: 0.05rem;
+	/* margin-top: 0; */
+	/* width: 100%;
+	height: 0.4rem */
+}
+.last ul li .box2 h3{
+	font-size: 0.2rem;
+	color: #b4b4b4;
+	font-weight: 400;
+	margin-top: 0.25rem;
+}
+.last ul li .box2 h4{
+	font-size: 0.2rem;
+	color: #b4b4b4;
+	font-weight: 400;
+	margin-top: 0.1rem;
+}
+.last ul li .box2 .box3{
+	margin-top: 0.1rem;
+	width: 100%;
+	height: 0.25rem;
+	/* background: red; */
+}
+.last ul li .box2 .box3 .manjian{
+	width: 0.83rem;
+	height: 100%;
+	border: 0.02rem solid red;
+	border-radius: 0.1rem;
+	font-size: 0.2rem;
+	text-align: center;
+	float: left;
+	line-height: 0.22rem;
+}
+.last ul li .box2 .box3 h1{
+	margin-left: 0.3rem;
+	font-size: 0.18rem;
+	float: left;
+	color:#b4b4b4 ;
+}
+.last ul li .box2 .box3 img{
+	width: 0.2rem;
+	height: 0.2rem;
+}
+.last ul li .box2 .box3 .more{
+	color: red;
+	font-size: 0.15rem;
+	margin-left: 0.35rem;
+	float: left;
+}
+.last ul li .hot{
+	position: absolute;
+	right: 0.3rem;
+	top: 0.5rem;
+	width: 0.4rem;
+	height: 0.3rem;
+	background-image: url('../img/hot.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+footer{
+	width: 7.5rem;
+	height: 1.11rem;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+footer ul{
+	width: 7.1rem;
+	height:  1.11rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-top: 0.2rem;
+}
+footer ul li{
+	width: 1.775rem;
+	height: 100%;
+	display: flex;
+	/* float: left; */
+	/* background: red; */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	position: relative;
+
+}
+footer ul li img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0 auto;
+}
+footer ul li a {
+	display: block;
+}
+/* footer ul li a img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0 auto;
+	/* position: absolute;
+	left: 4.54rem;
+	bottom: 0.5rem; */
+/* } */ 
+footer ul li h1{
+	font-size: 0.18rem;
+	color: black;
+	text-align: center;
+
+}

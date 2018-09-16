@@ -1,0 +1,315 @@
+/*
+* @Author: www87
+* @Date:   2018-08-10 17:36:11
+* @Last Modified by:   www87
+* @Last Modified time: 2018-08-13 08:44:31
+*/
+header{
+	width: 7.5rem;
+	height: 0.9rem;
+	background-color: #f03434;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 2;
+}
+section{
+	height: 100%;
+	padding-top: 0.9rem;
+	overflow: scroll;
+	z-index: 1;
+}
+header .fanhui{
+	width: 0.25rem;
+	height: 0.35rem;
+	float: left;
+	margin-top: 0.28rem;
+}
+header .sousuo{
+	width: 0.3rem;
+	height: 0.35rem;
+	float: right;
+	margin-top: 0.28rem;
+}
+header .biaoti{
+	/* width: 2.07rem; */
+	height: 100%;
+	margin-left: 2.22rem;
+	float: left;
+}
+header .biaoti h1{
+	color: #fff;
+	text-align: center;
+	font-size: 0.3rem;
+	margin-top: 0.1rem;
+}
+header .biaoti h2{
+	color: #fff;
+	text-align: center;
+	font-size: 0.24rem;
+}
+.pic{
+	height: 3.04rem;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url('../img/images/shangpinhanbao_02.png');
+	background-position: center;
+	background-size: cover;
+
+}
+main{
+	height: 5.68rem;
+	width: 100%;
+	padding: 0 0.2rem;
+	margin: 0 auto;
+}
+main .box{
+	margin-top:0.15rem;
+	width: 100%;
+	height: 2.36rem;
+	box-shadow: 0.02rem 0.02rem 0.02rem 0.03rem rgba(217, 43,43, 0.1);
+	padding: 0.2rem 0.1rem;
+	position: relative;
+	border-radius: 0.1rem;
+}
+main .box h1{
+	color: #000;
+	font-size: 0.28rem;
+	/* margin-top: 0.32rem; */
+}
+main .box h2{
+	font-size: 0.18rem;
+	color: #000;
+	margin-top: 0.1rem;
+}
+main .box h3{
+	margin-top: 0.24rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: baseline;
+}
+main .box h3 .p1{
+	color: red;
+	font-size: 0.3rem;
+}
+main .box h3 del{
+	font-size: 0.24rem;
+	color: rgba(0, 0, 0, 0.66);
+	margin-left: 0.24rem;
+}
+main .box h3 .p2{
+	color: red;
+	font-size: 0.3rem;
+	margin-left: 0.45rem;
+	display: block;
+	border: 0.01rem solid red;
+
+}
+main .box h3 .p3{
+	color: #f65757;
+	font-size: 0.18rem;
+	margin-left: 0.2rem;
+}
+main .box h4{
+	margin-top: 0.32rem;
+	color: rgba(0, 0, 0, 0.66); 
+	font-size: 0.24rem;
+}
+main .box img{
+	width: 0.48rem;
+	height: 0.48rem;
+	position: absolute;
+	right: 0.15rem;
+	top: 1rem;
+}
+main .fox{
+	width: 100%;
+	height: 2.81rem;
+	margin-top: 0.27rem;
+	position: relative;
+}
+main .fox .fox1{
+	width: 100%;
+	height: 0.54rem;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 0.18rem;
+	padding-left: 0.1rem;
+}
+main .fox .fox1 h1{
+	color: #000;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 0;
+	left: 0.1rem;
+}
+main .fox .fox1 .pinjia{
+	color: rgba(0, 0, 0, 0.2);
+	font-size: 0.24rem;
+}
+main .fox .fox1 .duoshao{
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 0.24rem;
+	margin-left: 0.27rem;
+}
+main .fox .fox2{
+	width: 100%;
+	height: 1.93rem;
+	box-shadow: 0.01rem 0.01rem 0.01rem 0.01rem rgba(217, 43, 43, 0.35);
+	border-radius: 0.1rem;
+	padding-left: 0.1rem;
+	padding-top: 0.53rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+main .fox .fox2 .picture{
+	width: 1.34rem;
+	height: 100%;
+}
+main .fox .fox2 .picture img{
+	width: 1.15rem;
+	height: 1.15rem;
+
+}
+main .fox .fox2 .more h1{
+	color: #000;
+	font-size: 0.24rem;
+	margin-bottom: 0.16rem;
+}
+main .fox .fox2 .more h2{
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 0.18rem;
+	margin-bottom: 0.2rem;
+}
+main .fox .fox2 .more h3{
+	color: rgba(0, 0, 0, 1);
+	font-size: 0.24rem;
+	
+}
+main .fox .gengduo{
+	position: absolute;
+	top: 0.34rem;
+	right: 0.1rem;
+	width: 1.15rem;
+	height: 0.45rem;
+}
+.last{
+	width: 100%;
+	height: 11.91rem;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	margin: 0 auto 0.4rem auto;
+}
+.last .box{
+	width: 100%;
+	height: 0.47rem;
+	padding-top: 0.15rem;
+	padding-left: 0.1rem;
+	position: relative;
+}
+.last .box h1{
+	color: #000;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 0;
+	left: 0.1rem;
+}
+.last .box h2{
+	font-size: 0.24rem;
+	color: rgba(0, 0, 0, 0.2);
+}
+.last ol{
+	width: 100%;
+	height: 10.44rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.last ol li{
+	width: 3.35rem;
+	height: 4.44rem;
+	box-shadow: 0.01rem 0.01rem 0.01rem 0.01rem rgba(217, 43, 43, 0.35);
+	margin-right: 0.32rem;
+	margin-top: 0.3rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.last ol li:nth-child(2){
+	margin-right: 0;
+}
+.last ol li:nth-child(4){
+	margin-right: 0;
+}
+.last ol li img{
+	height: 2.66rem;
+	width: 100%;
+}
+.last ol li .pisa{
+	color: #000;
+	font-size: 0.3rem;
+	margin: 0.2rem auto 0.1rem auto;
+}
+.last ol li .yuexiao{
+	color:rgba(0,0,0,0.9);
+	font-size: 0.18rem;
+	margin-top: 0.23rem;
+	margin: 0 auto;
+}
+.last ol li .rmb{
+	width: 1.41rem;
+	height: 0.32rem;
+	margin: 0 auto;
+	margin-top: 0.15rem;
+}
+footer{
+	width: 7.5rem;
+	height: 0.88rem;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+}
+footer ul{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	overflow: hidden;
+}
+footer ul li{
+	width: 5.07rem;
+	height: 100%;
+	background: #3d3939;
+	background-image: url('../img/gouwuche.png');
+	background-size:0.74rem 0.66rem ;
+	background-position: 0.4rem 0.13rem ;
+	background-repeat: no-repeat;
+	padding-top: 0.2rem;
+	padding-left: 1.5rem;
+}
+footer ul .last{
+	width: 2.03rem;
+	height: 100%;
+	background: #757575;
+	color: #fff;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.88rem;
+}
+footer ul li h1{
+	color: #757575;
+	font-size: 0.24rem;
+}
+footer ul li h2{
+	color: #fff;
+	font-size: 0.18rem;
+}

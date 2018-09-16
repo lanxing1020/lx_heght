@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/zhuce.css">
+	<script src="jquery.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">	
+</head>
+<body>
+ <main>
+ 	<a href="denglu.html"><div class="box1">登录</div></a>
+	<h1>HUANYINGZHUCE</h1>
+	<h2>欢迎注册</h2>
+	<section>
+		<div class="list">
+			<img class="jianhao" src="img/zhucejianhao.png" alt="">
+			<input class="zhanghao" type="text" placeholder="请输入手机号">
+			<img class="shouji" src="img/zhuceshouji.png" alt="">
+		</div>
+		<div class="list">
+			<img class="jianhao" src="img/zhucejianhao.png" alt="">
+			<input class="yanzhengma" type="text" placeholder="请输入验证码">
+			<div class="list1">获取验证码</div>
+		</div>
+		<div class="list">
+			<img class="jianhao" src="img/zhucejianhao.png" alt="">
+			<input class="mima" type="password" placeholder="请输入密码">
+			<img class="suo" src="img/zhucesuo.png" alt="">
+		</div>
+	</section>
+	<a href="javascript:;"><div class="last">注册</div></a>
+	<img class="yuan" src="img/zhuceyuan.png" alt="">
+	<h3>我已阅读并同意《xx外卖相关服务协议》</h3>
+ </main>
+	
+</body>
+</html>
+<script>
+	$(".list1").click(function(){
+		fn();
+    	setInterval(fn,1000);
+   		 function fn(){
+        let now=new Date;
+        let future=new Date(2018,9,1,00,00,00);
+        let time=Math.floor((future.getTime()-now.getTime())/1000);
+         console.log(time); 
+        let s=Math.floor(time%(60*60*24*30)%(60*60*24)%(60*60)%60);
+        $(".list1").html(s+"s");
+    	}
+	})
+	$(".last").click(function(){
+		// if(`$(".zhanghao").html().is("")`&&`$(".mima").html().is("")`&&`$(".yanzhengma").html().is("")`){
+		// 	alert("请输入信息");
+		// }else {
+			window.open("denglu.html","_self");
+			// window.close();
+			
+		// }
+		
+	
+			// window.close("zhuce.html");
+			// window.open("denglu.html");
+	})
+</script>

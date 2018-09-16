@@ -1,0 +1,226 @@
+/*
+* @Author: www87
+* @Date:   2018-08-14 08:22:40
+* @Last Modified by:   www87
+* @Last Modified time: 2018-08-16 15:38:36
+*/
+
+header{
+	width: 7.5rem;
+	height: 1.06rem;
+	background-color: #f03434;
+	padding-left: 0.2rem;
+	padding-right: 0.2rem;
+	text-align: center;
+	position: relative;
+	position: fixed;
+	top: 0;
+	z-index: 4;
+}
+header h1{
+	color: #fff;
+	font-size: 0.36rem;
+	position: absolute;
+	top: 0.2rem;
+	left: 2.77rem;
+}
+header h2{
+	color: rgba(255, 255, 255, 0.3);
+	font-size: 0.3rem;
+	position: absolute;
+	top: 0.34rem;
+	left: 2.4rem;
+}
+header img{
+	height: 0.37rem;
+	width: 0.37rem;
+	float: right;
+	margin-top: 0.34rem;
+}
+main{
+	height: 100%;
+	width: 7.5rem;
+	padding-right: 0.2rem;
+	padding-left: 0.2rem;
+	padding-top: 1.06rem; 
+	overflow: scroll;
+}
+main ul{
+	height: 5.1rem;
+	width: 100%;
+	padding-top: 0.48rem;
+}
+main .box{
+	height: 0.63rem;
+	width: 100%;
+}
+main .box h1{
+	font-size: 0.24rem;
+	color: red;
+	text-align: left;   
+}
+main .box .kuai{
+	background-color:red;
+	height: 0.06rem;
+	width: 0.02rem;
+	margin: 0 0.08rem;
+	display: inline-block;
+}
+main .box h2{
+	font-size: 0.3rem;
+	color: red;
+	text-align: left;
+}
+main .box1{
+	width: 7.1rem;
+	height: 4rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-top: 0.7rem;
+	
+}	
+main .box1 li{
+	box-shadow:0.02rem 0.02rem 0.1rem 0.02rem rgba(240, 52, 52, 0.3);
+	width:2.46rem;
+	height: 2.94rem;
+	border-radius: 0.1rem;
+	margin-right: 0.12rem;
+	padding-top: 1.32rem;
+	position: relative;
+
+}
+main .box1 li h1{
+	font-size: 0.28rem;
+	width: 1.5rem;
+	color: #000;
+	text-align: center;
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.4);
+	margin: 0 auto;
+}
+main .box1 li h2{
+	font-size: 0.22rem;
+	color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	margin-top: 0.1rem;
+}
+main .box1 li h3{
+	font-size: 0.2rem;
+	color: red;
+	text-align: center;
+	margin-top: 0.1rem;
+	/* font-weight: 500; */
+}
+main .box1 li h4{
+	font-size: 0.2rem;
+	color: red;
+	text-align: center;
+	margin-top: 0.1rem;
+	/* font-weight: 500; */
+}
+main .box1 li img{
+	width: 1.7rem;
+	height:1.5rem;
+	position: absolute;
+	left: 0.28rem;
+	top: -0.35rem;
+	z-index: 3;
+}
+main ol li{
+	width: 100%;
+	height: 1.37rem;
+	margin-bottom: 0.2rem;
+	border-radius: 0.1rem;
+	box-shadow: 0.02rem 0.02rem 0.1rem 0.02rem rgba(240, 52, 52, 0.3);
+	margin-top: 0.2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+main ol li .left{
+	width: 1.41rem;
+	height: 1.34rem;
+}
+main ol li .right{
+	width: 1.69rem;
+	height: 1.18rem;
+	margin-left: 1.2rem;
+	margin-top: 0.15rem;
+}
+main ol li .list{
+	display: inline-block;
+	height: 100%;
+	margin-left: 0.3rem;
+	margin-top: 0.2rem;
+}
+main ol li .list .one{
+	text-align: left;
+	font-size: 0.28rem;
+	color: #000;
+	font-weight: 700;
+}
+main ol li .list .two{
+	text-align: left;
+	font-size:0.22rem ;
+	color: rgba(0, 0, 0, 0.8);
+	font-weight: 600;
+}
+main ol li .list .three{
+	text-align: left;
+	font-size:0.18rem ;
+	color: red;
+	font-weight: 600;
+	margin-top: 0.1rem;
+}
+main ol li:nth-child(5){
+	margin-bottom: 0.3rem;
+}
+
+
+
+
+
+footer{
+	width: 7.5rem;
+	height: 1.11rem;
+	margin: 0 auto;
+	position: fixed;
+	bottom: 0;
+	background-color: #fff;
+}
+footer ul{
+	width: 7.1rem;
+	height:  1.11rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	padding-top: 0.2rem;
+}
+footer ul li{
+	width: 1.775rem;
+	height: 100%;
+	display: flex;
+	/* float: left; */
+	/* background: red; */
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+}
+footer ul li img{
+	width: 0.5rem;
+	height: 0.5rem;
+	margin: 0 auto;
+}
+footer ul li h1{
+	font-size: 0.18rem;
+	color: black;
+	text-align: center;
+
+}
+footer ul li:nth-child(3) h1{
+	color: red;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>确认支付</title>
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/querenzhifu.css">
+	<script src="jquery.js"></script>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<header>
+		<img class="pic" src="img/qurendingdan2.png" alt="">
+		<div class="box1">订单配送至
+			<h1>公司</h1>
+		</div>
+		<div class="box2">
+			<p>凯通大厦学府街122号 </p>
+			<p>510室</p>
+		</div>
+		<div class="box3">
+			<p>兰兴</p>
+			<p>（先生）</p>
+			<p>18435154425</p>
+		</div>
+		<div class="box4">
+			<h1>送达时间</h1>
+			<h2>尽快送达（12：00送达）</h2>
+			<h3>准时达服务：超过10分钟享赔付</h3>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<h4>支付方式</h4>
+			<div class="last">
+				<p>支付方式</p>
+				<img class="zhifu" src="img/querendiangdan3.png" alt="">
+			</div>
+		</div>
+	</header>
+	<main>
+		<h1>肯德基</h1>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box1">
+			<img class="tu" src="img/querendidian11.png" alt="">
+			<p class="one">奥尔良鸡肉披萨</p>
+			<img class="cheng" src="img/querendidian12.png" alt="">
+			<span>1</span>
+			<p class="two">55</p>
+			<p class="three">RMB</p>
+		</div>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box2">
+			<p class="one">红包</p>
+			<p class="two">无可用红包</p>
+			<img class="fanhui1" src="img/querenzhifu13.png" alt="">
+		</div>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box3">
+			<p class="one">小计</p>
+			<p class="two">55</p>
+			<p class="three">RMB</p>
+		</div>
+	</main>
+	<section>
+		<div class="box1">
+			<p class="one">订餐备注</p>
+			<p class="two">口味、偏好</p>
+			<img class="fanhui1" src="img/querenzhifu13.png" alt="">
+		</div>
+		<img class="dotted" src="img/shengluo.png" alt="">
+		<div class="box2">
+			<p class="one">餐具份数</p>
+			<p class="two">未选择</p>
+			<img class="fanhui1" src="img/querenzhifu13.png" alt="">
+		</div>
+	</section>
+	<footer>
+		<img class=one src="img/querenzhifu14.png" alt="">
+		<p class=two>55.00</p>
+		<p class=three>RMB</p>
+		<a class="lx_zhifu" href="javascript:;"><img class=four src="img/querenzhifu15.png" alt=""></a>
+	</footer>
+	<footer class="lx_footer">
+			<h1>选择支付方式</h1>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<div class="box">
+				<img class="qianbao" src="img/qianbaoyue.png" alt="">
+				<p>账户余额</p>
+			</div>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<div class="box">
+				<img class="zhifubao" src="img/zhifubao.png" alt="">
+				<p>支付宝</p>
+			</div>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<div class="box">
+				<img class="weixin" src="img/weixin.png" alt="">
+				<p>微信支付</p>
+			</div>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<a href="zhiwen.html"><div class="box active">
+				<img class="yinhangka" src="img/yinhangka.png" alt="">
+				<p>银行卡支付</p>
+			</div></a>
+			<img class="dotted" src="img/shengluo.png" alt="">
+			<div class="box">
+				<img class="qita" src="img/qita.png" alt="">
+				<p>其他第三方支付</p>
+			</div>
+		</footer>
+</body>
+</html>
+<script>
+	$(".lx_zhifu").click(function(){
+		$("body").children().not("header").not(".lx_footer").fadeOut("slow");
+		$(".lx_footer").fadeIn("slow");
+	})
+	let box=document.querySelectorAll(".lx_footer .box");
+	box.forEach(function(e){
+		e.onclick=function(){
+			box.forEach(function(element){
+				element.classList.remove("active");
+			})
+			e.classList.add("active");
+		}
+	})
+</script>
